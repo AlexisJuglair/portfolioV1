@@ -1,0 +1,19 @@
+/* cv */
+
+/* .resume-contact 
+{
+    border-left: none;
+} */
+
+.list-group-item 
+{
+    border: none;
+}
+
+/* contact */
+
+textarea
+{
+    height: 250px !important; 
+    resize: none;
+}
