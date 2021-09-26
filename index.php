@@ -24,34 +24,55 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head> 
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-
+<body>
 	<div class="main-wrapper">
-		<nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-bold bg-custom">
 			<div class="container px-3 px-lg-5">
-				<a class="navbar-brand" href="#">
-					<i class="fas fa-home me-1"></i>
-					Alexis Juglair
+				<a class="navbar-brand text-primary" href="#">
+					<i class="fas fa-home"></i>
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav" role="tablist">
+					<ul class="navbar-nav"id="navbarNav">
 						<li class="nav-item">
-							<a class="nav-link" href="#curriculumVitæ">Curriculum Vitæ</a>
+							<a class="nav-link text-primary" href="#accueil">Accueil</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#portfolio">Portfolio</a>
+							<a class="nav-link text-primary" href="#curriculumVitæ">Curriculum Vitæ</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
+							<a class="nav-link text-primary" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-primary" href="#contact">Contact</a>
 						</li>
 					</ul>
-				</div>
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link text-primary" href="tel:0682289934" title="06 82 28 99 34"><i class="fas fa-phone-alt fa-lg me-1"></i></a>		
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-primary" href="#contact" title="alexis.juglair@gmail.com"><i class="fas fa-envelope fa-lg me-1"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-primary" href="https://github.com/AlexisJuglair" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-primary" href="https://www.linkedin.com/in/alexis-juglair/" title="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+						</li>
+					</ul>					
+				</div>				
 			</div>
 		</nav>
-	
+
+		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center">
+			<h1 class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
+			<p class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos appliciations web. --></p>
+			<a class="btn btn-primary btn-arrow" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
+		</div>
+
 		<section id="curriculumVitæ" class="cta-section theme-bg-light py-5">
 			<div class="container text-center single-col-max-width">
 				<h2  class="heading mb-3">Curriculum Vitæ</h2>
@@ -276,31 +297,31 @@
 									<h4 class="item-title">Techniques</h4>
 									<ul class="list-unstyled resume-skills-list">
 										<li class="mb-3">
-											<a href="https://html.spec.whatwg.org/multipage/" target="_blank" class="mx-2"><img src="assets/images/skills/html5.png" alt="html5"></a>
-											<a href="https://www.w3.org/Style/CSS/" target="_blank" class="mx-1"><img src="assets/images/skills/css3.png" alt="css3"></a>
-											<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/" target="_blank" class="mx-2"><img src="assets/images/skills/javascript.png" alt="javascript"></a>
+											<a href="https://html.spec.whatwg.org/multipage/" target="_blank" class="mx-2"><img src="assets/images/skills/html5.png" alt="html5" title="HTML5"></a>
+											<a href="https://www.w3.org/Style/CSS/" target="_blank" class="mx-1"><img src="assets/images/skills/css3.png" alt="css3" title="CSS3"></a>
+											<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/" target="_blank" class="mx-2"><img src="assets/images/skills/javascript.png" alt="javascript" title="JavaScript"></a>
 										</li>
 										<li class="mb-3">
-											<a href="https://www.php.net/" target="_blank" class="mx-1"><img src="assets/images/skills/php.png" alt="php"></a>
-											<a href="https://git-scm.com/" target="_blank" class="mx-1"><img src="assets/images/skills/git.png" alt="git"></a>
+											<a href="https://www.php.net/" target="_blank" class="mx-1"><img src="assets/images/skills/php.png" alt="php" title="PHP"></a>
+											<a href="https://git-scm.com/" target="_blank" class="mx-1"><img src="assets/images/skills/git.png" alt="git" title="Git"></a>
 										</li>
 										<li class="mb-3">
-											<a href="https://www.mysql.com/" target="_blank" class="mx-1"><img src="assets/images/skills/mysql.png" alt="mysql"></a>
-											<a href="https://getbootstrap.com/" target="_blank" class="mx-1"><img src="assets/images/skills/bootstrap.png" alt="bootstrap"></a>
+											<a href="https://www.mysql.com/" target="_blank" class="mx-1"><img src="assets/images/skills/mysql.png" alt="mysql" title="MySQL"></a>
+											<a href="https://getbootstrap.com/" target="_blank" class="mx-1"><img src="assets/images/skills/bootstrap.png" alt="bootstrap" title="Bootstrap"></a>
 										</li>
 										<li class="mb-3">					
-											<a href="https://fr.reactjs.org/" target="_blank" class="mx-1"><img src="assets/images/skills/react.png" alt="react"></a>
-											<a href="https://symfony.com/" target="_blank" class="mx-1"><img src="assets/images/skills/symfony.png" alt="symfony"></a>
-											<a href="https://fr.wordpress.org/" target="_blank" class="mx-1"><img src="assets/images/skills/wordpress.png" alt="wordpress"></a>										
+											<a href="https://fr.reactjs.org/" target="_blank" class="mx-1"><img src="assets/images/skills/react.png" alt="react" title="React"></a>
+											<a href="https://symfony.com/" target="_blank" class="mx-1"><img src="assets/images/skills/symfony.png" alt="symfony" title="Symfony"></a>
+											<a href="https://fr.wordpress.org/" target="_blank" class="mx-1"><img src="assets/images/skills/wordpress.png" alt="wordpress" title="WordPress"></a>										
 										</li>
 										<li class="mb-3">
-											<a href="https://www.prestashop.com/fr/" target="_blank" class="mx-1"><img src="assets/images/skills/prestashop.png" alt="prestashop"></a>											
-											<a href="https://laragon.org/" target="_blank" class="mx-1"><img src="assets/images/skills/laragon.png" alt="laragon"></a>
-											<a href="https://code.visualstudio.com/" target="_blank" class="mx-1"><img src="assets/images/skills/vscode.png" alt="visualstudiocode"></a>
+											<a href="https://www.prestashop.com/fr/" target="_blank" class="mx-1"><img src="assets/images/skills/prestashop.png" alt="prestashop" title="PrestaShop"></a>											
+											<a href="https://laragon.org/" target="_blank" class="mx-1"><img src="assets/images/skills/laragon.png" alt="laragon" title="Laragon"></a>
+											<a href="https://code.visualstudio.com/" target="_blank" class="mx-1"><img src="assets/images/skills/vscode.png" alt="visualstudiocode" title="Visual Studio Code"></a>
 										</li>
 										<li>
-											<a href="https://www.microsoft.com/fr-fr/windows/" target="_blank" class="mx-1"><img src="assets/images/skills/windows.png" alt="windows"></a>
-											<a href="https://ubuntu.com/" target="_blank" class="mx-1"><img src="assets/images/skills/ubuntu.png" alt="ubuntu"></a>
+											<a href="https://www.microsoft.com/fr-fr/windows/" target="_blank" class="mx-1"><img src="assets/images/skills/windows.png" alt="windows" title="Windows"></a>
+											<a href="https://ubuntu.com/" target="_blank" class="mx-1"><img src="assets/images/skills/ubuntu.png" alt="ubuntu"title="Ubuntu"></a>
 										</li>
 									</ul>
 								</div><!--//item-->

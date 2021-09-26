@@ -1,3 +1,11 @@
+// (function ()
+// {
+//   let cible;
+
+
+// })();
+
+
 // Soumission du formulaire de contact (validation JS + PHP)
 (function () 
 {
@@ -25,7 +33,6 @@
 
           let formContact = document.getElementById("formContact");
           let data = new FormData(formContact);
-  
           let ajax = new XMLHttpRequest();
   
           ajax.open("POST","contact.php", true);
