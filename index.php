@@ -69,7 +69,7 @@
 
 		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center">
 			<h1 class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
-			<p class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos appliciations web. --></p>
+			<p class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos applications web. --></p>
 			<a class="btn btn-primary btn-arrow" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
 		</div>
 
