@@ -3,7 +3,6 @@
 <head>
 	<title>Alexis Juglair - Développeur Web</title>
 	
-	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,31 +10,28 @@
 	<meta name="author" content="Alexis Juglair">    
 	<!-- <link rel="shortcut icon" href="#">  -->
 	
-	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 	
-	<!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
 	
-	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
 	<link rel="stylesheet" href="styles.css">
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head> 
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
 	<div class="main-wrapper">
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top fw-bold bg-custom">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top fw-bold bg-custom">
 			<div class="container px-3 px-lg-5">
-				<a class="navbar-brand text-primary" href="#">
+				<!-- <a class="navbar-brand text-primary" href="#">
 					<i class="fas fa-home"></i>
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				</a> -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav"id="navbarNav">
+				<div class="collapse navbar-collapse" id="navbarNavCollapse">
+					<ul class="navbar-nav" id="navbarNav">
 						<li class="nav-item">
 							<a class="nav-link text-primary" href="#accueil">Accueil</a>
 						</li>
@@ -68,7 +64,7 @@
 		</nav>
 
 		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center">
-			<h1 class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
+			<h1 id="main-title" class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
 			<p class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos applications web. --></p>
 			<a class="btn btn-primary btn-arrow" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
 		</div>

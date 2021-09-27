@@ -3,18 +3,42 @@
 .bg-custom
 {
     background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2));
+    background-color: #000;
 }
 
-.active
+@media (min-width: 992px)
 {
-    border-bottom: 4px solid white;
+    .active
+    {
+        border-bottom: 5px solid #fff;
+        border-radius: 50%;
+    }
+
+    .nav-item .nav-link:hover
+    {
+        background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2));
+        border-radius: 20px;
+        -webkit-animation: 1s ease-in navbar_hover;
+        animation: 1s ease-in navbar_hover;
+    }
+
+    /* @-webkit-keyframes navbar_hover
+    { 
+        from { background: linear-gradient(0deg, rgba(255,255,255,0), rgba(255, 255, 255, 0)) } 
+        to { background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2)); }  
+    }
+    @keyframes navbar_hover 
+    { 
+        from { background: linear-gradient(0deg, rgba(255,255,255,0), rgba(255, 255, 255, 0)) } 
+        to { background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2)); }  
+    } */
 }
 
 /* ACCUEIL */
 
 #accueil
 {
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("assets/images/background.jpg") no-repeat center;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),url("assets/images/background.jpg") no-repeat center;
     background-size: cover;
 }
 

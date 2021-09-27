@@ -1,10 +1,31 @@
-// (function ()
-// {
-//   let cible;
+// Changement de couleur de la navbar
+let nav = document.getElementById("navbar");
+let items = document.querySelectorAll(".nav-item");
 
+window.addEventListener('scroll', function() 
+{
+  if (window.pageYOffset >= document.getElementById("curriculumVitæ").offsetTop)
+  {
+    nav.classList.remove("bg-custom");
+    nav.classList.add("bg-primary");
+    
+    items.forEach(item => 
+    {
+      item.querySelector("a").classList.remove("text-primary");
+    });
+  }
+  else
+  {
+    nav.classList.remove("bg-primary");
+    nav.classList.add("bg-custom");
+    nav.style.backgroundColor = "none";
 
-// })();
-
+    items.forEach(item => 
+    {
+      item.querySelector("a").classList.add("text-primary");
+    });
+  }
+});
 
 // Soumission du formulaire de contact (validation JS + PHP)
 (function () 
