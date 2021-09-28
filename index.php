@@ -22,7 +22,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
 	<div class="main-wrapper">
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top fw-bold bg-custom">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top fw-bold bg-custom py-0">
 			<div class="container px-3 px-lg-5">
 				<!-- <a class="navbar-brand text-primary" href="#">
 					<i class="fas fa-home"></i>
@@ -31,31 +31,31 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavCollapse">
-					<ul class="navbar-nav" id="navbarNav">
-						<li class="nav-item">
+					<ul id="navbar-left" class="navbar-nav" id="navbarNav">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#accueil">Accueil</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#curriculumVitæ">Curriculum Vitæ</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#portfolio">Portfolio</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#contact">Contact</a>
 						</li>
 					</ul>
-					<ul class="navbar-nav ms-auto">
-						<li class="nav-item">
+					<ul id="navbar-right" class="navbar-nav ms-auto">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="tel:0682289934" title="06 82 28 99 34"><i class="fas fa-phone-alt fa-lg me-1"></i></a>		
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#contact" title="alexis.juglair@gmail.com"><i class="fas fa-envelope fa-lg me-1"></i></a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="https://github.com/AlexisJuglair" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="https://www.linkedin.com/in/alexis-juglair/" title="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
 						</li>
 					</ul>					
@@ -65,7 +65,7 @@
 
 		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center">
 			<h1 id="main-title" class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
-			<p class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos applications web. --></p>
+			<p id="main-title-p" class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos applications web. --></p>
 			<a class="btn btn-primary btn-arrow" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
 		</div>
 
@@ -77,7 +77,7 @@
 		</section>
 
 		<div class="container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">				
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg border border-primary rounded">				
 				<div class="resume-header">
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
@@ -101,12 +101,10 @@
 					<div class="row align-items-center">
 						<div class="col-12 col-md-3 col-xl-2 text-center">
 						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/profile.png" alt="image">
-						</div>
-						
+						</div>				
 						<div class="col text-start">
 							<p class="mb-0">Passionné par le code et ayant fait un BTS dans ce domaine, je souhaiterais mettre mes compétences techniques au service de votre entreprise. J'ai décidé dernièrement de me spécialiser dans le web en effectuant une nouvelle formation. </p> 
 						</div>
-
 						<div class="col text-start">
 							<p class="mb-0">Actuellement à la recherche d'un stage pour parfaire mon projet professionel, en vue de la certification de Développeur Web et Web Mobile.</p>
 						</div><!--//col-->
@@ -393,7 +391,7 @@
 		<div class="container px-3 px-lg-5 py-5">
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/sodipan01.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Sodipan 01</h5>
@@ -406,7 +404,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/sodipan-fermetures.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Sodipan Fermetures</h5>
@@ -419,7 +417,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/sodipan-equipement.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Sodipan Equipement</h5>
@@ -432,7 +430,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/casse-briques.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Casse-briques</h5>
@@ -445,7 +443,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/dsm.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Dance School Manager</h5>
@@ -458,7 +456,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/logops.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Logo PlayStation</h5>
@@ -471,7 +469,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/horloge.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Horloge</h5>
@@ -484,7 +482,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<div class="card h-100 shadow-lg text-center">
+					<div class="card h-100 shadow-lg text-center border border-primary">
 						<img src="assets/images/portfolio/symshop.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Tutoriel site e-commerce SymShop</h5>
@@ -508,7 +506,7 @@
 		<div class="container px-3 px-lg-5 mb-5">
 			<form id="formContact" class="needs-validation" name="formContact" novalidate>	
 				<div id="formGroup" class="form-group mx-auto"> 
-					<div class="row" style="--bs-gutter-x: 0;">
+					<div class="row">
 						<div class="col form-floating mb-4">
 							<input type="text" class="form-control shadow-lg" id="floatingLastName" placeholder="Nom" name="nom" required>
 							<label for="floatingLastName">Nom</label>
@@ -518,7 +516,7 @@
 						</div>
 						<div class="col form-floating mb-4">
 							<input type="text" class="form-control shadow-lg" id="floatingFirstName" placeholder="Prénom" name="prenom" required>
-							<label for="floatingFirstName">Prénom</label>
+							<label for="floatingFirstName p-5">Prénom</label>
 							<div class="invalid-feedback">
 								Veuillez entrer un prénom.
 							</div>
@@ -561,7 +559,7 @@
 
 		<footer class="footer bg-primary py-2 text-center">
 			<div class="container">
-				<span>&copy;2021-<?php echo date("Y"); ?> Alexis Juglair</span>
+				<span>&copy;<?php echo date("Y"); ?> Alexis Juglair</span>
 			</div>
 		</footer>
 							

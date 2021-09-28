@@ -1,9 +1,14 @@
+body
+{
+    background-color: whitesmoke;
+}
+
 /* NAVBAR */
 
 .bg-custom
 {
-    background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2));
-    background-color: #000;
+    background-color: #333;
+    border-bottom: 1px solid #000;;
 }
 
 @media (min-width: 992px)
@@ -14,40 +19,40 @@
         border-radius: 50%;
     }
 
-    .nav-item .nav-link:hover
+    .nav-item-custom:hover, .nav-item-custom-bis:hover
     {
-        background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2));
-        border-radius: 20px;
-        -webkit-animation: 1s ease-in navbar_hover;
-        animation: 1s ease-in navbar_hover;
+        -webkit-transition: background-color .5s linear;
+        -ms-transition: background-color .5s linear;
+        transition: background-color .5s linear;
     }
 
-    /* @-webkit-keyframes navbar_hover
-    { 
-        from { background: linear-gradient(0deg, rgba(255,255,255,0), rgba(255, 255, 255, 0)) } 
-        to { background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2)); }  
+    .nav-item-custom:hover
+    {
+        background-color: #555;
+
     }
-    @keyframes navbar_hover 
-    { 
-        from { background: linear-gradient(0deg, rgba(255,255,255,0), rgba(255, 255, 255, 0)) } 
-        to { background: linear-gradient(0deg, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.2)); }  
-    } */
+
+    .nav-item-custom-bis a:hover
+    {
+        color: #000 !important;
+    }
 }
 
 /* ACCUEIL */
 
 #accueil
 {
-    background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)),url("assets/images/background.jpg") no-repeat center;
+    background: url("assets/images/background.jpg") no-repeat center;
     background-size: cover;
 }
 
-/* CV */
-
-/* .resume-contact 
+#main-title, #main-title-p
 {
-    border-left: none;
-} */
+    -webkit-text-stroke: 1px #000;
+    
+}
+
+/* CV */
 
 .list-group-item 
 {
@@ -55,6 +60,11 @@
 }
 
 /* CONTACT */
+
+.form-floating > label
+{
+    left: initial;
+}
 
 textarea
 {

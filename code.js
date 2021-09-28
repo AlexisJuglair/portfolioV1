@@ -1,6 +1,7 @@
 // Changement de couleur de la navbar
 let nav = document.getElementById("navbar");
 let items = document.querySelectorAll(".nav-item");
+// let itemsCustom = document.querySelectorAll(".nav-item");
 
 window.addEventListener('scroll', function() 
 {
@@ -12,6 +13,8 @@ window.addEventListener('scroll', function()
     items.forEach(item => 
     {
       item.querySelector("a").classList.remove("text-primary");
+      item.classList.remove("nav-item-custom");
+      item.classList.add("nav-item-custom-bis");
     });
   }
   else
@@ -23,9 +26,17 @@ window.addEventListener('scroll', function()
     items.forEach(item => 
     {
       item.querySelector("a").classList.add("text-primary");
+      item.classList.remove("nav-item-custom-bis");
+      item.classList.add("nav-item-custom");
     });
   }
 });
+
+// Apparition du h1 lettre par lettre
+function displayTitle()
+{
+  
+}
 
 // Soumission du formulaire de contact (validation JS + PHP)
 (function () 
@@ -98,7 +109,3 @@ window.addEventListener('scroll', function()
       }, false)
   })
 })();
-
-
-  
-
