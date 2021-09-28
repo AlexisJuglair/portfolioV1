@@ -35,6 +35,7 @@ body
     .nav-item-custom-bis a:hover
     {
         color: #000 !important;
+        border-bottom-color: #000;;
     }
 }
 
@@ -49,14 +50,13 @@ body
 #main-title, #main-title-p
 {
     -webkit-text-stroke: 1px #000;
-    
 }
 
-/* CV */
-
-.list-group-item 
+#main-title-a
 {
-    border: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 1s linear;
 }
 
 /* CONTACT */

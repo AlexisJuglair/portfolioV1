@@ -63,21 +63,21 @@
 			</div>
 		</nav>
 
-		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center">
-			<h1 id="main-title" class="display-4 text-white fw-bold">&#60 Alexis Juglair - Développeur Web /&#62</h1>
-			<p id="main-title-p" class="lead fw-bold text-white">&#60!-- Je développe vos sites vitrines, e-commerces et vos applications web. --></p>
-			<a class="btn btn-primary btn-arrow" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
+		<div id="accueil" class="p-5 min-vh-100 d-flex flex-column justify-content-center align-items-center mb-5">
+			<h1 id="main-title" class="display-4 text-white fw-bold"></h1>
+			<p id="main-title-p" class="lead fw-bold text-white"></p>
+			<a id="main-title-a" class="btn btn-primary" href="#curriculumVitæ" role="button"><i class="fas fa-arrow-circle-down me-1"></i>Voir plus</a>
 		</div>
 
 		<section id="curriculumVitæ" class="cta-section theme-bg-light py-5">
 			<div class="container text-center single-col-max-width">
-				<h2  class="heading mb-3">Curriculum Vitæ</h2>
+				<h2 class="heading mb-3">Curriculum Vitæ</h2>
 				<a class="btn btn-primary" href="assets/CV-Alexis-Juglair-Développeur-Web.pdf" target="_blank"><i class="fas fa-file-pdf me-2"></i>Télécharger</a>				
 			</div><!--//container-->
 		</section>
 
-		<div class="container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg border border-primary rounded">				
+		<div class="container px-3 px-lg-5 mb-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 shadow-lg border border-primary rounded">				
 				<div class="resume-header">
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
@@ -120,7 +120,7 @@
 								<div class="row">
 									<div class="col-sm-12 col-md-6">
 										<div class="item mb-3 border-bottom">									
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="http://www.2bsystem.fr/" target="_blank">
 													<img src="assets/images/company/2bsystem.png" alt="2bsystem">											
 													<h4 class="py-2 px-2 mb-0">2BSystem</h4>
@@ -133,7 +133,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="http://www.acg-synergies.fr/" target="_blank">
 													<img src="assets/images/company/acg-synergies.png" alt="acg-synergies">											
 													<h4 class="py-2 px-2 mb-0">ACG Synergies</h4>
@@ -146,7 +146,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.sodipan01.fr/" target="_blank">
 													<img src="assets/images/company/sodipan.png" alt="sodipan">											
 													<h4 class="py-2 px-2 mb-0">Sodipan</h4>
@@ -159,7 +159,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.reseau-canope.fr/academie-de-lyon/atelier-canope-01-bourg-en-bresse.html" target="_blank">
 													<img src="assets/images/company/reseau-canope.png" alt="reseau-canope">											
 													<h4 class="py-2 px-2 mb-0">Réseau Canopé</h4>
@@ -172,7 +172,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.ameli.fr/assure/adresses-et-contact/points-accueil/agence-de-macon/" target="_blank">
 													<img src="assets/images/company/cpam.png" alt="cpam">											
 													<h4 class="py-2 px-2 mb-0">CPAM</h4>
@@ -185,7 +185,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-0">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.g-p-i.fr/" target="_blank">
 													<img src="assets/images/company/gpi.png" alt="gpi">											
 													<h4 class="py-2 px-2 mb-0">GPI</h4>
@@ -201,7 +201,7 @@
 
 									<div class="col-sm-12 col-md-6">
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.nexans.fr/fr/" target="_blank">
 													<img src="assets/images/company/nexans.png" alt="nexans">											
 													<h4 class="py-2 px-2 mb-0">Nexans</h4>
@@ -214,7 +214,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-5 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.nexans.fr/fr/" target="_blank">
 													<img src="assets/images/company/nexans.png" alt="nexans">											
 													<h4 class="py-2 px-2 mb-0">Nexans</h4>
@@ -227,7 +227,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="http://erea71-claudebrosse.ac-dijon.fr/" target="_blank">
 													<img src="assets/images/company/erea.png" alt="erea">											
 													<h4 class="py-2 px-2 mb-0">EREA</h4>
@@ -240,7 +240,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="http://www.ain.gouv.fr/" target="_blank">
 													<img src="assets/images/company/prefecture-ain.png" alt="prefecture-ain">											
 													<h4 class="py-2 px-2 mb-0">Préfecture de l'Ain</h4>
@@ -253,7 +253,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-3 border-bottom">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.ellipseinfo.com/" target="_blank">
 													<img src="assets/images/company/ellipse.png" alt="prefecture-ain">											
 													<h4 class="py-2 px-2 mb-0">Ellipse Informatique</h4>
@@ -266,7 +266,7 @@
 											</div>
 										</div><!--//item-->
 										<div class="item mb-0">
-											<div class="item-heading row align-items-center mb-3">
+											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="#">
 													<img src="assets/images/company/6cinfo.png" alt="6cinfo">											
 													<h4 class="py-2 px-2 mb-0">6C Info</h4>
@@ -388,7 +388,7 @@
 		</section>
 
 		<!-- portfolio -->
-		<div class="container px-3 px-lg-5 py-5">
+		<div class="container px-3 px-lg-5 mb-5">
 			<div class="row row-cols-1 row-cols-md-3 g-4">
 				<div class="col">
 					<div class="card h-100 shadow-lg text-center border border-primary">
@@ -566,6 +566,8 @@
 	</div><!--//main-wrapper-->
 
 	<script src="code.js"></script>
+	<script>colorNavbar();</script>
+	<script>displayTitle();</script>
 </body>
 </html> 
 
