@@ -31,7 +31,7 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavCollapse">
-					<ul id="navbar-left" class="navbar-nav" id="navbarNav">
+					<ul class="navbar-nav" id="navbarNav">
 						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="#accueil">Accueil</a>
 						</li>
@@ -45,7 +45,7 @@
 							<a class="nav-link text-primary" href="#contact">Contact</a>
 						</li>
 					</ul>
-					<ul id="navbar-right" class="navbar-nav ms-auto">
+					<ul class="navbar-nav ms-auto">
 						<li class="nav-item p-1 nav-item-custom">
 							<a class="nav-link text-primary" href="tel:0682289934" title="06 82 28 99 34"><i class="fas fa-phone-alt fa-lg me-1"></i></a>		
 						</li>
@@ -77,7 +77,7 @@
 		</section>
 
 		<div class="container px-3 px-lg-5 mb-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 shadow-lg border border-primary rounded">				
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 shadow-lg border border-primary rounded bg-white">				
 				<div class="resume-header">
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
