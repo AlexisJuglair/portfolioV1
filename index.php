@@ -86,7 +86,7 @@
 						</div><!--//resume-title-->
 						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
 							<ul class="list-unstyled mb-0">
-								<li class="mb-2"><i class="fas fa-birthday-cake fa-fw fa-lg me-2 "></i>25/09/1990 - 30 ans</li>
+								<li class="mb-2"><i class="fas fa-birthday-cake fa-fw fa-lg me-2 "></i>25/09/1990 - 31 ans</li>
 								<li class="mb-2"><i class="fas fa-phone fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:0682289934">06 82 28 99 34</a></li>
 								<li class="mb-2"><i class="fas fa-envelope fa-fw fa-lg me-2"></i><a class="resume-link" href="#contact">alexis.juglair@gmail.com</a></li>
 								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="https://alexisj802.promo-73.codeur.online/">https://alexisj802.promo-73.codeur.online/</a></li>
@@ -103,7 +103,7 @@
 						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/profile.png" alt="image">
 						</div>				
 						<div class="col text-start">
-							<p class="mb-0">Passionné par le code et ayant fait un BTS dans ce domaine, je souhaiterais mettre mes compétences techniques au service de votre entreprise. J'ai décidé dernièrement de me spécialiser dans le web en effectuant une nouvelle formation. </p> 
+							<p class="mb-0">Passionné par le code et ayant fait un BTS dans ce domaine, je souhaiterais mettre mes compétences techniques au service de votre entreprise. J'ai décidé dernièrement de me spécialiser dans le web en effectuant une nouvelle formation.</p> 
 						</div>
 						<div class="col text-start">
 							<p class="mb-0">Actuellement à la recherche d'un stage pour parfaire mon projet professionel, en vue de la certification de Développeur Web et Web Mobile.</p>
@@ -116,7 +116,6 @@
 						<div class="resume-main col-12 col-lg-8 col-xl-9 pe-0 pe-lg-5">
 							<section class="work-section py-3">	
 								<h3 class="text-uppercase resume-section-heading mb-4">Expériences Professionnelles</h3>						
-								
 								<div class="row">
 									<div class="col-sm-12 col-md-6">
 										<div class="item mb-3 border-bottom">									
@@ -255,7 +254,7 @@
 										<div class="item mb-3 border-bottom">
 											<div class="item-heading row align-items-center mb-2">
 												<a class="text-decoration-none d-md-flex mb-1" href="https://www.ellipseinfo.com/" target="_blank">
-													<img src="assets/images/company/ellipse.png" alt="prefecture-ain">											
+													<img src="assets/images/company/ellipse.png" alt="ellipse">											
 													<h4 class="py-2 px-2 mb-0">Ellipse Informatique</h4>
 												</a>											
 												<div class="text-muted mb-1">2010</div>
@@ -329,57 +328,56 @@
 									</ul>
 								</div><!--//item-->
 							</section><!--//skills-section-->
-									<section class="education-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Formations</h3>
-										<ul class="list-unstyled resume-education-list">
-											<li class="mb-3">
-												<div class="resume-degree font-weight-bold">Titre professionnel niveau 5 Développeur Web et Web Mobile </div>
-												<div class="resume-degree-org text-muted">Onlineformapro</div>
-												<div class="resume-degree-time text-muted">2021 - 2022</div>
-											</li>
-											<li class="mb-3">
-												<div class="resume-degree font-weight-bold">BTS Systèmes Informatiques aux Organisations option Développement</div>
-												<div class="resume-degree-org text-muted">Lycée Lamartine de Mâcon</div>
-												<div class="resume-degree-time text-muted">2011 - 2013</div>
-											</li>
-											<li>
-												<div class="resume-degree font-weight-bold">BAC professionnel Systèmes Electroniques Numériques</div>
-												<div class="resume-degree-org text-muted">Lycée Saint Joseph de Bourg-en-Bresse</div>
-												<div class="resume-degree-time text-muted">2008 - 2011</div>
-											</li>
-										</ul>
-									</section><!--//education-section-->
+							<section class="education-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Formations</h3>
+								<ul class="list-unstyled resume-education-list">
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">Titre professionnel niveau 5 Développeur Web et Web Mobile</div>
+										<div class="resume-degree-org text-muted">Onlineformapro</div>
+										<div class="resume-degree-time text-muted">2021 - 2022</div>
+									</li>
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">BTS Systèmes Informatiques aux Organisations option Développement</div>
+										<div class="resume-degree-org text-muted">Lycée Lamartine de Mâcon</div>
+										<div class="resume-degree-time text-muted">2011 - 2013</div>
+									</li>
+									<li>
+										<div class="resume-degree font-weight-bold">BAC professionnel Systèmes Electroniques Numériques</div>
+										<div class="resume-degree-org text-muted">Lycée Saint Joseph de Bourg-en-Bresse</div>
+										<div class="resume-degree-time text-muted">2008 - 2011</div>
+									</li>
+								</ul>
+							</section><!--//education-section-->
 
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Langues</h3>
-										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">Français <span class="text-muted">(Maternelle)</span></li>
-											<li>Anglais <span class="text-muted">(Technique)</span></li>
-										</ul>
-									</section><!--//certificates-section-->
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Hobbies
-										</h3>
-										<ul class="list-unstyled resume-interests-list mb-0">
-											<li class="mb-2">Footing</li>
-											<li class="mb-2">Informatique et multimédia</li>
-											<li>Lecture et écriture</li>
-										</ul>
-									</section><!--//certificates-section-->
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Langues</h3>
+								<ul class="list-unstyled resume-lang-list">
+									<li class="mb-2">Français <span class="text-muted">(Maternelle)</span></li>
+									<li>Anglais <span class="text-muted">(Technique)</span></li>
+								</ul>
+							</section><!--//certificates-section-->
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">Hobbies
+								</h3>
+								<ul class="list-unstyled resume-interests-list mb-0">
+									<li class="mb-2">Footing</li>
+									<li class="mb-2">Informatique et multimédia</li>
+									<li>Lecture et écriture</li>
+								</ul>
+							</section><!--//certificates-section-->
 									
-								</aside><!--//resume-aside-->
-							</div><!--//row-->
-						</div><!--//resume-body-->
-						<hr>
-						<div class="resume-footer text-center">
-							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/AlexisJuglair" target="_blank"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/AlexisJuglair</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://www.linkedin.com/in/alexis-juglair/" target="_blank"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/alexis-juglair</span></a></li>
-							</ul>
-						</div><!--//resume-footer-->
-					</article>
-					
-		</div><!--//container-->
+						</aside><!--//resume-aside-->
+					</div><!--//row-->
+				</div><!--//resume-body-->
+				<hr>
+				<div class="resume-footer text-center">
+					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/AlexisJuglair" target="_blank"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/AlexisJuglair</span></a></li>
+						<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://www.linkedin.com/in/alexis-juglair/" target="_blank"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/alexis-juglair</span></a></li>
+					</ul>
+				</div><!--//resume-footer-->
+		</article>				
+	</div><!--//container-->
 
 		<section id="portfolio" class="cta-section theme-bg-light py-5">
 			<div class="container text-center single-col-max-width">
@@ -460,7 +458,7 @@
 						<img src="assets/images/portfolio/logops.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title text-primary">Logo PlayStation</h5>
-							<p class="card-text">Reproduction d'un logo PlayStation en HTML et CSS</p>
+							<p class="card-text">Reproduction d'un logo PlayStation en HTML et CSS.</p>
 							<a href="/challenges/logo_ps"  target="_blank" class="btn btn-primary">
 								<i class="fas fa-eye"></i>
 								Voir
